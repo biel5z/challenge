@@ -1,3 +1,18 @@
+let idade = "20";
+ 
+if (idade === 20){
+   console.log('Você tem 20 anos')
+}
+
+
+
+
+
+
+
+/*
+Condicional If / else:
+
 let idade = 19;
 
 if (idade >= 18){
@@ -6,11 +21,12 @@ if (idade >= 18){
     console.log("voce é menor de idade")
 }
 
-/*
+
 < : Menor
 > : Maior
 == : igual
 >= : maior ou igual
 <= : menor ou igual
 != : diferente
+=== : mais restrito
 */
