@@ -1,5 +1,16 @@
-let idade = 21;
+let idade = 19;
 
-let idadeString = `${idade + ''} anos`
+if (idade >= 18){
+    console.log("VOce é maior de idade")
+} else{
+    console.log("voce é menor de idade")
+}
 
-console.log(idadeString);
+/*
+< : Menor
+> : Maior
+== : igual
+>= : maior ou igual
+<= : menor ou igual
+!= : diferente
+*/
