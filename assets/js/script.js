@@ -4,9 +4,21 @@
 
 
 
-
 /* 
 Multi-condicionais (&& e ||)
+
+// let temHabilitacao = true;
+
+// if (idade >= 18 && temHabilitacao) {
+//     console.log("Pode dirigir legalmente."); // Este código é executado
+// }else {
+//     console.log("Não pode dirigir.")
+// }
+// if(idade >= 18 && idade <= 60){
+//     console.log("Você é um adulto")
+// }else {
+//     console.log("Voce é menor")
+// }
 
 let idade = 26;
 
@@ -20,13 +32,30 @@ if(idade >= 18 && idade <= 60){
     console.log("Você é um adulto")
 }
 
-if(idade >= 18 || idade < 60){
-    console.log("Você é um adulto")
+
+// Exemplo 1: Pelo menos uma verdadeira
+let dia_util = true;
+let feriado = false;
+
+if (dia_util || feriado) {
+  console.log("A loja está aberta."); // Este código é executado (dia útil é verdadeiro)
+} else {
+  console.log("A loja está fechada.");
+}
+
+// Exemplo 2: Ambas falsas
+let temperatura = 10;
+let chovendo = false;
+
+if (temperatura > 30 || chovendo) {
+    console.log("Ótimo dia para piscina.");
+} else {
+    console.log("Dia normal."); // Este código é executado
 }
 
 
-&&: E
-||: OU
+AND &&: E
+OR ||: OU
 */ 
 
 
