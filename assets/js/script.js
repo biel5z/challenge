@@ -1,19 +1,11 @@
-let n1 = 10;
-let n2 = 5;
-console.log(n1 > n2)
+let age = 18;
 
-let w = "10";
-let z = 10;
-console.log(w === z)
+let isAdult = ((age >= 18 && age < 60) ? 'Sim' : 'Não');
 
-let a = 10;
-let b = 5;
-console.log(a != b)
+console.log(isAdult);
 
-let preco = 46;
+let isMember = true;
 
-if (preco <= 45){
-    console.log("Está barato")
-} else {
-    console.log("está caro")
-}
+let shipping = isMember ? 2 : 10;
+console.log(isMember ? "Você é membro" : "Você não é membro")
+console.log("Frete: " + shipping)
