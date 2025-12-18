@@ -1,4 +1,5 @@
-function nomeCompleto(nome, sobrenome){
-    console.log(`${nome} ${sobrenome}`)
+function palmeiras(campeonato, titulo){
+    return `${campeonato} ${titulo}`
 }
-nomeCompleto("Gabriel", "Correia")
+let camp = palmeiras("Camp BR", "Brasileirão")
+console.log("Palmeiras foi campeão " + camp)
