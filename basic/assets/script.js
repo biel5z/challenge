@@ -1,15 +1,10 @@
 let personagem = {
-    nome: 'Batman',
-    idade: 36,
-    cidade:'Gothan',
-    espadas: ["Chinesa", 'Americana'],
-    habilidades: {
-        forca: 99,
-        velocida: 78,
-        luta: 98
-    }
+    nome: 'JT',
+    idade: 22,
+    carros: [
+        {modelo: 'Fiat', color: "Azul"},
+        {modelo: 'BMW', color: "Preta"}
+    ]
 }
-personagem.nome = "Superman";
-personagem.habilidades.forca += 5;
-personagem.espadas.push('Brasileira');
-console.log(personagem.espadas);
+
+console.log(`O carro de ${personagem.nome} é o ${personagem.carros[0].modelo} com a cor ${personagem.carros[0].color}`);
