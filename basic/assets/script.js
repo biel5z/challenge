@@ -1,16 +1,16 @@
-let lista = [
-    'agua',
-    'ovo',
-    'farinha',
-    'leite',
-    'sal'
-];
-//shift = remove o primeiro
-//pop = remove o ultimo item do meu array
-lista.pop()
+let personagem = {
+    nome: 'Batman',
+    idade: 36,
+    cidade:'Gothan',
+    espadas: ["Chinesa", 'Americana'],
+    habilidades: {
+        forca: 99,
+        velocida: 78,
+        luta: 98
+    }
 
-//push serve para adicionar mais um item ao meu array
-// lista.push('palmeiras')
-
-//length faz a contagem de todos os itens do meu array
-console.log(`Total de ingredientes: ${lista.length}`);
+}
+// isso se chama "Cascata" ficar entrando de um em um
+console.log(`${personagem.nome} tem ${personagem.idade} anos.`);
+console.log(personagem.habilidades.forca);
+console.log(personagem.espadas[1]);
