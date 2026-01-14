@@ -1,8 +1,7 @@
-function addSquares(a, b){
-    const square = (x) => x * x;
+let listas = [
+    10,
+    'Palmeiras', 
+    ['dd']
+];
 
-    let sqrA = square(a);
-    let sqrB = square(b);
-    return sqrA + sqrB;
-}
-console.log(addSquares(2, 3));
+console.log(listas[2][0])
