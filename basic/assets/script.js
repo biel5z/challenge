@@ -1,10 +1,11 @@
-let personagem = {
-    nome: 'JT',
-    idade: 22,
-    carros: [
-        {modelo: 'Fiat', color: "Azul"},
-        {modelo: 'BMW', color: "Preta"}
-    ]
+let pessoa = {
+    nome: 'Palmeira',
+    sobrenome: "Barra funda",
+    idade: 115,
+
+    nomeCompleto: function(){
+        return `${this.nome} ${this.sobrenome}`
+    }  
 }
 
-console.log(`O carro de ${personagem.nome} é o ${personagem.carros[0].modelo} com a cor ${personagem.carros[0].color}`);
+console.log(pessoa.nomeCompleto())
