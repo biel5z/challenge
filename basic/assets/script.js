@@ -8,9 +8,8 @@ let personagem = {
         velocida: 78,
         luta: 98
     }
-
 }
-// isso se chama "Cascata" ficar entrando de um em um
-console.log(`${personagem.nome} tem ${personagem.idade} anos.`);
-console.log(personagem.habilidades.forca);
-console.log(personagem.espadas[1]);
+personagem.nome = "Superman";
+personagem.habilidades.forca += 5;
+personagem.espadas.push('Brasileira');
+console.log(personagem.espadas);
