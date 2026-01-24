@@ -1,5 +1,6 @@
-let carros = ["Uva","Abacaxi","Morango","Mexerica"]
+let numero = 0
+while(numero < 100){
+    numero++
+    console.log(`O número é ${numero}`)
 
-for(let i = 0; i < carros.length; i++){
-    console.log(carros[i])
 }
