@@ -1,18 +1,5 @@
-let cores = [
-    {nome: 'preto', qt: 19},
-    {nome: 'azul', qt: 5},
-    {nome: 'vermelho', qt: 15 }
-];
+let carros = ["Uva","Abacaxi","Morango","Mexerica"]
 
-
-// for(let n = 0; n < cores.length; n++){
-//     console.log(cores[n]);
-// }
-
-for(let i in cores){
-    console.log(cores[i].nome);
+for(let i = 0; i < carros.length; i++){
+    console.log(carros[i])
 }
-
-// for(let cor of cores){
-//     console.log(`Nome: ${cor.nome} - ${cor.qt}`);
-// }
