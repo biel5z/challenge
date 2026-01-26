@@ -1,11 +1,11 @@
-// let frutas = ['Maça','Uva','laranja','Banana']
+let frutas = ['Maça','Uva','laranja','Banana']
 
-// // sort() pega por ordem alfabetica 
-// frutas.sort();
+// sort() pega por ordem alfabetica 
+frutas.sort();
 
-// // reverse pega do ultimo pro primeiro
-// frutas.reverse();
-// console.log(frutas)
+// reverse pega do ultimo pro primeiro
+frutas.reverse();
+console.log(frutas)
 
 let cars = [
     { brand: 'fiat', year: 2022 },
